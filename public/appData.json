@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co.com/m5YRpTks/download-14.jpg",
+    "title": "Quick Notes",
+    "companyName": "Nota Inc.",
+    "description": "Quick Notes is a fast and intuitive note-taking app that helps you capture ideas instantly. Whether it’s a lecture note, shopping list, or daily reminder, you can organize everything in beautifully designed folders and tag them for easy searching. The app automatically syncs your notes across multiple devices using secure cloud backup. You can also attach photos, voice recordings, and checklists to make your notes richer. Dark mode and offline access make it perfect for both students and professionals.",
+    "size": 24,
+    "reviews": "1.4K",
+    "ratingAvg": 4.3,
+    "downloads": "12M",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 802 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co.com/53qCPP2/download.png",
+    "title": "FitTrack",
+    "companyName": "HealthCo",
+    "description": "FitTrack is your ultimate personal fitness companion designed to help you stay in shape and motivated. Create customized workout plans based on your goals — weight loss, muscle gain, or endurance building. Track calories, steps, sleep patterns, and heart rate all in one dashboard. AI-powered insights help you understand your fitness journey and suggest improvements. You can also connect FitTrack with your smartwatch to record progress in real time and share achievements with your friends.",
+    "size": 52,
+    "reviews": "8K",
+    "ratingAvg": 4.6,
+    "downloads": "52M",
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 12 },
+      { "name": "3 star", "count": 60 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 500 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co.com/czbXQ36/download-10.jpg",
+    "title": "Budget Buddy",
+    "companyName": "MoneyWise",
+    "description": "Budget Buddy helps you take control of your finances like never before. Record your income and expenses in just a few taps and categorize them automatically using smart AI recognition. Visual charts and monthly summaries show exactly where your money goes. The app includes bill reminders, savings goals, and spending insights to help you develop better financial habits. You can also export reports for personal or business tracking with advanced security and offline functionality.",
+    "size": 18,
+    "reviews": "2K",
+    "ratingAvg": 4.1,
+    "downloads": "11K",
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 40 },
+      { "name": "4 star", "count": 90 },
+      { "name": "5 star", "count": 96 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co.com/whJKVcVD/download-1.png",
+    "title": "Recipe Hub",
+    "companyName": "YumWorks",
+    "description": "Recipe Hub is your digital cookbook with thousands of delicious recipes curated from top chefs around the world. Each recipe comes with detailed step-by-step guides, ingredients lists, and HD video tutorials. You can filter recipes by cuisine, diet type, or available ingredients. Save your favorite dishes, create meal plans, and even generate automatic grocery lists. With an active community, you can share your own creations and discover trending recipes every day.",
+    "size": 38,
+    "reviews": "6K",
+    "ratingAvg": 4.4,
+    "downloads": "22M",
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 220 },
+      { "name": "5 star", "count": 330 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co.com/cKx0WRQr/download-11.jpg",
+    "title": "Travel Mapper",
+    "companyName": "Wander Ltd.",
+    "description": "Travel Mapper is a must-have tool for travelers who love exploring the world. Create detailed itineraries, discover hidden gems, and get AI-based travel recommendations. The app allows you to map routes, view nearby attractions, estimate costs, and even work offline when you’re abroad. You can pin locations, upload travel photos, and share your adventure plans with friends or family. Built-in weather forecasts and safety tips ensure your journey stays smooth and fun.",
+    "size": 45,
+    "reviews": "9K",
+    "ratingAvg": 4.5,
+    "downloads": "34M",
+    "ratings": [
+      { "name": "1 star", "count": 8 },
+      { "name": "2 star", "count": 12 },
+      { "name": "3 star", "count": 60 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 600 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co.com/7t5PwryH/images.png",
+    "title": "Photo Flow",
+    "companyName": "PixelArt",
+    "description": "Photo Flow turns your phone into a professional editing studio. Apply over 200+ filters, adjust lighting, remove blemishes, and enhance photos using AI-based editing tools. With background blur, color splash, and one-tap beautify features, you can create stunning visuals effortlessly. The app supports RAW editing, batch export, and direct sharing to Instagram, TikTok, or any social platform. Whether you’re a casual user or a creative artist, Photo Flow delivers perfection every time.",
+    "size": 76,
+    "reviews": "1.5K",
+    "ratingAvg": 4.7,
+    "downloads": "78M",
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 60 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 1130 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co.com/nNR8ZZvH/download-3.png",
+    "title": "Lingua Learn",
+    "companyName": "LinguaSoft",
+    "description": "Lingua Learn makes language learning fun, interactive, and rewarding. Featuring over 20 global languages, it combines audio lessons, speaking practice, flashcards, and live quizzes. Streak tracking and gamified rewards motivate you to stay consistent. The app adapts to your learning speed and provides instant pronunciation feedback with AI speech recognition. Learn anywhere, anytime — from greetings to advanced grammar — all through immersive practice.",
+    "size": 50,
+    "reviews": "1.5K",
+    "ratingAvg": 4.8,
+    "downloads": "65M",
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 18 },
+      { "name": "3 star", "count": 75 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 797 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co.com/Wp32v7g5/download-4.png",
+    "title": "Task Pro",
+    "companyName": "FocusLab",
+    "description": "Task Pro helps you organize your work and life with ease. Create to-do lists, manage deadlines, and set recurring reminders in a clean, minimal interface. Tasks can be grouped into projects, color-coded, and prioritized for better productivity. You can also collaborate with teammates, track progress, and sync data across devices. With widgets and notifications, Task Pro keeps you focused and on schedule every day.",
+    "size": 30,
+    "reviews": "1.1K",
+    "ratingAvg": 4.2,
+    "downloads":"20M",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 450 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co.com/Psfd9hkk/download-5.png",
+    "title": "Newsify",
+    "companyName": "ByteFeed",
+    "description": "Newsify keeps you informed with the latest headlines and personalized news feeds. Choose your favorite topics — from tech and sports to politics and science — and get curated updates in real time. The app uses machine learning to understand your reading preferences and recommends articles that match your interests. It includes offline reading mode, dark theme, and daily briefing summaries so you never miss important stories.",
+    "size": 35,
+    "reviews": "1.5K",
+    "ratingAvg": 4.0,
+    "downloads": "41M",
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 620 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co.com/MyX7jh8F/download-6.png",
+    "title": "Shop Smart",
+    "companyName": "BuyEase",
+    "description": "Shop Smart helps you save money while shopping online. Compare prices across hundreds of e-commerce sites and find the best deals instantly. You can track price drops, get alerts on flash sales, and read product reviews before buying. The app also curates personalized shopping suggestions based on your interests. Shop Smart ensures a secure and smooth experience, helping you make smarter purchase decisions every time.",
+    "size": 40,
+    "reviews": "1.1K",
+    "ratingAvg": 4.5,
+    "downloads": "52M",
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 310 },
+      { "name": "5 star", "count": 650 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://i.ibb.co.com/4ntbLwg9/download-12.jpg",
+    "title": "Music Zone",
+    "companyName": "TuneUp",
+    "description": "Music Zone is your all-in-one music streaming and downloading app with a massive library of songs and podcasts. Discover trending hits, create playlists, and listen offline without interruptions. High-quality audio, personalized recommendations, and real-time lyrics make every moment musical. You can follow your favorite artists, explore new genres, and enjoy ad-free streaming in premium mode.",
+    "size": 90,
+    "reviews": "2.1K",
+    "ratingAvg": 4.6,
+    "downloads": "89M",
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1380 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://i.ibb.co.com/3L5GqLz/download-7.png",
+    "title": "Study Mate",
+    "companyName": "EduPro",
+    "description": "Study Mate transforms studying into an engaging experience. It offers flashcards, quizzes, and spaced repetition tools to help you retain knowledge faster. Create custom study decks, track your progress, and compete with friends on leaderboards. The app also includes AI-generated summaries, motivational streaks, and collaborative study rooms where students can discuss and share notes in real time.",
+    "size": 60,
+    "reviews": "1.4K",
+    "ratingAvg": 4.7,
+    "downloads": "64M",
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 70 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 895 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://i.ibb.co.com/n8jgBqcx/download-13.jpg",
+    "title": "Mind Relax",
+    "companyName": "CalmLab",
+    "description": "Mind Relax is designed to reduce stress, improve focus, and promote better sleep. It combines guided meditation, breathing sessions, and ambient soundscapes like rain, ocean, and forest sounds. The app offers daily mindfulness reminders, sleep timers, and mood tracking to help you build healthy habits. Perfect for unwinding after a busy day or improving concentration during work.",
+    "size": 55,
+    "reviews": "1.6k",
+    "ratingAvg": 4.8,
+    "downloads": "74M",
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 60 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 1195 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://i.ibb.co.com/1YwbT22P/download-8.png",
+    "title": "CookBook",
+    "companyName": "FoodieX",
+    "description": "CookBook is your personal culinary trainer packed with step-by-step recipes, cooking videos, and smart tips. Whether you’re a beginner or an expert chef, you can learn how to prepare dishes from different cuisines. Add ingredients to your shopping list, get cooking timers, and follow along with voice instructions. CookBook also lets you upload and store your own recipes for future use.",
+    "size": 65,
+    "reviews": "1K",
+    "ratingAvg": 4.3,
+    "downloads": "50M",
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 425 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://i.ibb.co.com/LhPDzrQN/download-9.png",
+    "title": "Weather Pro",
+    "companyName": "SkyCast",
+    "description": "Weather Pro provides precise forecasts, live radar maps, and weather alerts for any location worldwide. You can track temperature, wind speed, humidity, and UV index in real time. The app also includes 7-day and hourly forecasts with stunning visuals. Stay prepared for any condition with severe weather notifications, widgets, and beautifully designed minimal UI.",
+    "size": 48,
+    "reviews": "1.3k",
+    "ratingAvg": 4.5,
+    "downloads": "69M",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 755 }
+    ]
+  }
+]
