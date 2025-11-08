@@ -1,24 +1,49 @@
 import { all } from 'axios';
-import React from 'react'
+import React, { useEffect } from 'react'
+import { useState } from 'react';
 import { useParams } from 'react-router';
 import useapps from '../hooks/useapps';
 import icon from '../assets/icon-downloads.png'
 import ratingicon from '../assets/icon-ratings.png'
 import reviewsicon from '../assets/icon-review.png'
+import {toast} from 'react-hot-toast';
+
 const AppsDetails = () => {
   const {id} = useParams();
   const [allapps,loading, error] = useapps();
+  const [isInstalled, setInstalled] =useState(false);
   const allapp = allapps.find(a=>  String(a.id) === (id));
+  useEffect(() => {
+    const installedApps = JSON.parse(localStorage.getItem('installList'))
+    const alreadyInstalled = installedApps?.some(app => app.id === allapp?.id);
+    if (alreadyInstalled) {
+      setInstalled(true);
+    }
+  }, [allapp])
   if(loading)
     return <div>Loading...</div>
   const {title, companyName, description, image,downloads,ratingAvg,reviews,size} = allapp;
   
+   const hendelAddToInstall = ()=> {
+    const installedApps = JSON.parse(localStorage.getItem('installList')) || [];
+    const alreadyInstalled = installedApps?.some(app => app.id === allapp.id);
+    if(alreadyInstalled){
+      toast.error(`${title} is already installed`);
+      setInstalled(true);
+      return;
+    }
+    const updatedApps = [...installedApps, allapp];
+    localStorage.setItem('installList', JSON.stringify(updatedApps));
+    toast.success(`${title} installed Successfully`);
+    setInstalled(true);
+   }
+
   return (
  <div className=''>
    <div className=' w-full mt-10 border-b border-gray-300 pb-10 '>
     <div className='flex items-center md:flex-row flex-col gap-10'>
       <div className='pr-5'>
-        <img className='object-cover w-[370px] h-[255px] border border-gray-200 ' src={image} alt="" />
+        <img className='object-cover w-[370px] h-[255px] border border-gray-200' src={image} alt="" />
       </div>
       <div className='w-full'>
       <div className='mb-5'> 
@@ -29,7 +54,7 @@ const AppsDetails = () => {
           <div>
             <img className='w-6 mb-2' src={icon} alt="" />
             <p className='text-sm text-gray-500 mb-2'>Downloads</p>
-            <span className='text-3xl font-extrabold'>{downloads}</span>
+            <span className='text-3xl font-extrabold'>{downloads}M</span>
           </div>
           <div>
             <img className='w-6 mb-2' src={ratingicon} alt="" />
@@ -43,7 +68,11 @@ const AppsDetails = () => {
           </div>
         </div>
         <div className='my-5'>
-          <button className='bg-[#00D390] rounded-sm w-[180px] h-[45px] text-white'>Install Now ({size} MB)</button>
+          <button onClick={hendelAddToInstall} disabled={isInstalled}
+          className={`bg-[#00D390] btn rounded-sm w-[180px] h-[45px] text-white ${
+            isInstalled ? 'bg-gray-400 cursor-not-allowed'
+              : 'hover:bg-green-500 hover:bg-[#00b67a]'
+          }`}>{isInstalled ? 'Installed' : `Install Now (${size} MB)`}</button>
         </div>
       </div>
     </div>
