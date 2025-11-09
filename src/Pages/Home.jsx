@@ -14,7 +14,7 @@ const Home = () => {
         <h1 className='text-4xl'>Trending Apps</h1>
         <p className='text-gray-500'>Explore All Trending Apps on the Market developed by us</p>
       </div>
-        <div className=' grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
+        <div className=' grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4'>
           {
           featuredApps.map(app=> (
             <Appscard key={app.id} app={app}/>

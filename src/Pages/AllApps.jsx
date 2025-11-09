@@ -48,7 +48,7 @@ const AllApps = () => {
           <div className='flex justify-center'>
             <img className='w-74 h-74' src={Errorimg} alt="" />
             </div>
-        ):(  <div className=' grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
+        ):(  <div className=' grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4'>
           {
           searchedApps.map(app=> (
             <Appscard key={app.id} app={app}/>
