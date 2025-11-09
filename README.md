@@ -1,3 +1,15 @@
+App Name : HERO.IO
+It is a modern React-based web application that showcases different web apps, their details, and installation guides.
+
+
+Description:-----------
+
+HERO.IO is a platform where users can easily explore a variety of useful applications   each with clear details about their features, size, and user reviews.
+The site also includes a separate installation guide, a complete apps listing, and an option for developers to contribute to the project directly.
+
+
+
+Technologies :----------------
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
