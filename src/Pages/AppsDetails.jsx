@@ -6,7 +6,7 @@ import useapps from '../hooks/useapps';
 import icon from '../assets/icon-downloads.png'
 import ratingicon from '../assets/icon-ratings.png'
 import reviewsicon from '../assets/icon-review.png'
-import {toast} from 'react-hot-toast';
+import { toast } from 'react-toastify';
 
 const AppsDetails = () => {
   const {id} = useParams();
@@ -21,7 +21,7 @@ const AppsDetails = () => {
     }
   }, [allapp])
   if(loading)
-    return <div>Loading...</div>
+    return ;
   const {title, companyName, description, image,downloads,ratingAvg,reviews,size} = allapp;
   
    const hendelAddToInstall = ()=> {
@@ -40,6 +40,8 @@ const AppsDetails = () => {
 
   return (
  <div className=''>
+  <svg class="size-6 animate-bounce ...">
+          </svg>
    <div className=' w-full mt-10 border-b border-gray-300 pb-10 '>
     <div className='flex items-center md:flex-row flex-col gap-10'>
       <div className='pr-5'>

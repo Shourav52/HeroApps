@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import icon from '../assets/icon-downloads.png';
 import ratingicon from '../assets/icon-ratings.png';
+import { toast } from 'react-toastify';
+
+
 
 const Installation = () => {
   const [installList, setInstallList] = useState([]);
@@ -12,9 +15,11 @@ const Installation = () => {
   }, []);
 
   const handleUninstallBtn = (id) => {
+    const app = installList.find(app => app.id === id);
     const updatedList = installList.filter(app => app.id !== id);
     setInstallList(updatedList);
     localStorage.setItem('installList', JSON.stringify(updatedList));
+    toast.success(` ${app.title} uninstalled successfully`);
   };
 
   const handleSortChange = (order) => {
@@ -30,6 +35,8 @@ const Installation = () => {
 
   return (
     <div>
+      <svg class="size-6 animate-bounce ...">
+          </svg>
       <div className='w-full mt-20 mb-20 text-center '>
         <h1 className='text-4xl font-semibold'>Your Installed Apps</h1>
         <p className='mt-3 text-gray-500'>Explore All Trending Apps on the Market developed by us</p>
@@ -51,7 +58,7 @@ const Installation = () => {
         </label>
       </div>
 
-      <div className='space-y-3 w-full mt-5'>
+      <div className='space-y-3 w-full mt-5 bg-white'>
         {installList.map((p) => (
           <div
             className='flex justify-between items-center border border-gray-300 p-3 rounded-md'

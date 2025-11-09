@@ -1,7 +1,7 @@
 import React from 'react' 
 import logo from '../assets/logo.png'
 import git from '../assets/git.png'
-import { Link, NavLink } from 'react-router'
+import { Link, NavLink } from 'react-router-dom'
 const Navbar = () => {
   return (
     <div className="navbar bg-base-100 shadow-sm pl-10 pr-10">
@@ -14,13 +14,29 @@ const Navbar = () => {
         tabIndex="-1"
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
         <li>
-          <NavLink to='/'>Home</NavLink>
+          <NavLink  to='/'
+          className={({isActive}) =>
+           isActive
+            ? 'text-[#632EE3]'
+            :  'hover:text-[#632EE3]'
+          }
+          >Home</NavLink>
           </li>
         <li>
-          <NavLink to='/allapps'>Apps</NavLink>
+          <NavLink 
+          className={({isActive}) =>
+           isActive
+            ? 'text-[#632EE3]'
+            :  'hover:text-[#632EE3]'
+          }
+          to='/allapps'>Apps</NavLink>
           </li>
         <li>
-          <NavLink to='/installation'>Installation</NavLink>
+          <NavLink className={({isActive}) =>
+           isActive
+            ? 'text-[#632EE3]'
+            :  'hover:text-[#632EE3]'
+          } to='/installation'>Installation</NavLink>
           </li>
         
       </ul>
@@ -31,13 +47,31 @@ const Navbar = () => {
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
       <li>
-          <NavLink to='/'>Home</NavLink>
+          <NavLink to='/'
+          className={({isActive}) =>
+           isActive
+            ? 'text-[#632EE3] underline'
+            :  'hover:text-[#632EE3]'
+          }
+          >Home</NavLink>
           </li>
         <li>
-          <NavLink to='/allapps'>Apps</NavLink>
+          <NavLink to='/allapps'
+          className={({isActive}) =>
+           isActive
+            ? 'text-[#632EE3] underline'
+            :  'hover:text-[#632EE3]'
+          }
+          >Apps</NavLink>
           </li>
         <li>
-          <NavLink to='/installation'>Installation</NavLink>
+          <NavLink to='/installation'
+          className={({isActive}) =>
+           isActive
+            ? 'text-[#632EE3] underline'
+            :  'hover:text-[#632EE3]'
+          }
+          >Installation</NavLink>
           </li>
     </ul>
   </div>

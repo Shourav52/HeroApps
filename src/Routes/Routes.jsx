@@ -7,7 +7,7 @@ import Installation from "../Pages/Installation";
 import AppsDetails from "../Pages/AppsDetails";
 
 const router = createBrowserRouter([
-  {
+  { 
     path: '/',
     element : <MainLayout/>,
     errorElement: <ErrorPage/>,
@@ -25,19 +25,22 @@ const router = createBrowserRouter([
       },
       {
         path: '/installation',
-        element : <Installation/>
+        element : <Installation/>,
+        loader: ()=> fetch('./appData.json')
       },
       {
         path: '/allapps/:id',
         element : <AppsDetails/>,
+        loader: ()=> fetch('./appData.json')
+        
         
       },
    ],
   },
-  // {
-  //   path: '*',
-  //   element : <ErrorPage/>
-  // }
+  {
+    path: '*',
+    element : <ErrorPage/>
+  }
    
 ])
 
